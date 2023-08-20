@@ -1,0 +1,75 @@
+name: Shop2Door
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  scan: ^1.6.0
+  badges: ^3.0.3
+  shared_preferences: ^2.1.0
+  url_launcher: ^6.1.10
+  qr_flutter: ^4.0.0
+  fluttericon: ^2.0.0
+  dropdown_search: ^5.0.6
+  intl: ^0.18.0
+  sqflite: ^2.2.6
+  jiffy: ^6.1.0
+  geolocator: ^9.0.2
+  responsive_builder: ^0.6.4
+  cached_network_image: ^3.2.3
+  http: ^0.13.5
+  image_picker: ^0.8.7+1
+  device_preview: ^0.1.4-beta
+  font_awesome_flutter: ^10.4.0
+  # flutter_local_notifications: ^8.2.0
+  dartz: ^0.10.1
+  auto_animated: ^3.1.0
+  grouped_list: ^5.1.2
+  geocoding: ^2.1.0
+  path: ^1.8.2
+  flutter_polyline_points: ^1.0.0
+  firebase_messaging: ^14.4.0
+  google_sign_in: ^6.1.0
+  google_maps_flutter: ^2.2.5
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.0
+  flutter_svg: ^2.0.5
+  show_up_animation: ^2.0.0
+  flutter_local_notifications: ^9.5.3+1
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+
