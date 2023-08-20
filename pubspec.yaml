@@ -33,7 +33,6 @@ dependencies:
   image_picker: ^0.8.7+1
   device_preview: ^0.1.4-beta
   font_awesome_flutter: ^10.4.0
-  # flutter_local_notifications: ^8.2.0
   dartz: ^0.10.1
   auto_animated: ^3.1.0
   grouped_list: ^5.1.2
@@ -47,7 +46,7 @@ dependencies:
   cloud_firestore: ^4.5.0
   flutter_svg: ^2.0.5
   show_up_animation: ^2.0.0
-  flutter_local_notifications: ^9.5.3+1
+  flutter_local_notifications: ^9.5.3+1              # error with this pac
   get: ^4.6.5
 
 dev_dependencies:
